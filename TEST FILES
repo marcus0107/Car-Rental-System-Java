@@ -1,0 +1,15 @@
+Test 1:
+Action: Show cars
+Expected: List of available cars
+
+Test 2:
+Action: Rent available car
+Expected: Success message
+
+Test 3:
+Action: Rent already rented car
+Expected: Rental failed
+
+Test 4:
+Action: Return car
+Expected: Car becomes available
